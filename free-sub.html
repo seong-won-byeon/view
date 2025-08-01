@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>뮤직클릭</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@6.8.4/swiper-bundle.min.css" />
+    <script src="assets/js/index.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@6.8.4/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <!--______________무료 음원 상세페이지______________-->
+
+    
+    <!--____header.html____-->
+    <header class="header">
+      <a href="#" class="link-back">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+          <path d="M11.1464 16.6386C10.7937 16.2859 10.7937 15.714 11.1464 15.3612L19.5765 6.93113C19.9292 6.5784 20.5011 6.5784 20.8538 6.93113C21.2066 7.28386 21.2066 7.85576 20.8538 8.20849L13.0624 15.9999L20.8538 23.7913C21.2066 24.1441 21.2066 24.716 20.8538 25.0687C20.5011 25.4214 19.9292 25.4214 19.5765 25.0687L11.1464 16.6386Z" fill="#171E28"/>
+        </svg>
+      </a>
+  </header>
+  <!--____header.html____-->
+
+    <!-- 유튜브영역 -->
+    <div class="media">
+      <a href="https://www.youtube.com/watch?v=ekr2nIex040" target="_blank" rel="noopener noreferrer">
+        <img 
+          src="https://img.youtube.com/vi/ekr2nIex040/hqdefault.jpg" 
+          alt="YouTube Thumbnail"
+        >
+      </a>
+      <!-- progressBar.html -->
+      <div class="progress-bar-wrap">
+        <!-- 시작 -->
+        <!-- <div class="progress-bar">
+          <div class="thumb"></div>
+        </div> -->
+        <!-- 중간 -->
+        <!-- <div class="progress-bar progress">
+            <div class="thumb"></div>
+        </div> -->
+        <!-- 끝 -->
+        <div class="progress-bar filled">
+          <div class="thumb"></div>
+        </div>
+      </div>
+      <!-- progressBar.html -->
+    </div>
+
+    <div class="mediaNotice">
+      <img src="assets/img/notice-img.png" alt>
+      <p>기기를 음소거 하거나, 앱을 백그라운드로 전환하면 음악 감상이 중단돼요.</p>
+    </div>
+    
+
+    <div class="p-20">
+      <div class="title-box">
+        <h4>
+          제목두줄말줄임제목두줄말줄임제목두줄말줄임제목두줄말줄임제목두줄말줄임제목두줄말줄임제목두줄말줄임제목두줄말줄임제목두줄말줄임
+          제목두줄말줄임제목두줄말줄임제목두줄말줄임제목두줄말줄임제목두줄말줄임제목두줄말줄임제목두줄말줄임제목두줄말줄임
+        </h4>
+        <div>
+            <p class="artist">가수명한줄말줄임가수명한줄말줄임가수명한줄말줄임가수명한줄말줄임가수명한줄말줄임</p>
+        </div>
+      </div>
+      
+      <!-- 가사 더보기 -->
+      <div class="lyrics-box">
+        <div class="lyrics" id="lyrics">
+          La, la la, la la la la la La,<br>
+          La, la la, la la la la la La,<br>
+          La, la la, la la la la la La,<br>
+          La, la la, la la la la la La,<br>
+          Know just how to make
+          <span class="extra">
+             a scene, just me<br>
+            La, la la, la la la la la<br>
+            La, la la, la la la la la<br>
+            I don't need no one, two, three, not<br>
+            bourgeoisie, I'll step in<br>
+            Know just how to make a scene, just me<br>
+            La, la la, la la la la la <br>
+            La, la la, la la la la la<br>
+            I don't need no one, two, three, not<br>
+            bourgeoisie, I'll step in<br>
+            Know just how to make a scene, just me
+          </span>
+        </div>
+        <button id="togglelyrics">가사 더보기</button>
+      </div>
+      
+      <!-- 참여방법 -->
+      <div class="guide-box">
+        <p>콘텐츠 안내</p>
+        <ul>
+          <li>- 해당 음원은 리워드가 지급되지 않는 감상 전용 콘텐츠입니다.</li>
+          <li>- 유튜브 링크를 통해 영상 감상이 가능합니다.</li>
+        </ul>
+      </div>
+      
+      <div class="playlist">
+        <div class="titleTxt">
+          <h3>맞춤 플레이리스트</h3>
+        </div>
+        <ul class="card card-row type2">
+          <!--____cardRow.html____-->
+          <li class="list">
+              <a href="#">
+                  <div class="thumb-area">
+                      <img src="../assets/img/smple.png" alt="TOO BAD G-DRAGON" />
+                  </div>
+                  <div class="info-area">
+                      <div class="col-top">
+                          <!--____badge.html____-->
+                          <span class="badge ebadge-12">12시간마다</span>
+                          <!--____badge.html____-->
+                          <p class="title">제목한줄말줄임제목한줄말줄임제목한줄말줄임제목한줄말줄임제목한줄말줄임제목한줄말줄임제목한줄말줄임</p>
+                      </div>
+                      <div class="col-bottom">
+                          <span class="artist">가수명한줄말줄임가수명한줄말줄임가수명한줄말줄임가수명한줄말줄임가수명한줄말줄임</span>
+                          <!--____tag.html____-->
+                          <div class="tag e-tag">
+                              <span class="circle">P</span>
+                              <span class="value">15</span>
+                          </div>
+                          <!--____tag.html____-->
+                      </div>
+                  </div>
+              </a>
+          </li>
+          <!--____cardRow.html____-->
+          <li class="list">
+              <a href="#">
+                  <div class="thumb-area">
+                      <img src="../assets/img/dummy-prd.png" alt="TOO BAD G-DRAGON" />
+                  </div>
+                  <div class="info-area">
+                      <div class="col-top">
+                          <!--____badge.html____-->
+                          <span class="badge ebadge-12">12시간마다</span>
+                          <!--____badge.html____-->
+                          <p class="title">제목한줄말줄임제목한줄말줄임제목한줄말줄임제목한줄말줄임제목한줄말줄임제목한줄말줄임제목한줄말줄임</p>
+                      </div>
+                      <div class="col-bottom">
+                          <span class="artist">가수명한줄말줄임가수명한줄말줄임가수명한줄말줄임가수명한줄말줄임가수명한줄말줄임</span>
+                          <!--____tag.html____-->
+                          <div class="tag e-tag">
+                              <span class="circle">P</span>
+                              <span class="value">15</span>
+                          </div>
+                          <!--____tag.html____-->
+                      </div>
+                  </div>
+              </a>
+          </li>
+          <li class="list">
+              <a href="#">
+                  <div class="thumb-area">
+                      <img src="../assets/img/dummy-prd.png" alt="TOO BAD G-DRAGON" />
+                  </div>
+                  <div class="info-area">
+                      <div class="col-top">
+                          <!--____badge.html____-->
+                          <span class="badge ebadge-24">3시간마다</span>
+                          <!--____badge.html____-->
+                          <p class="title">제목한줄말줄임제목한줄말줄임제목한줄말줄임제목한줄말줄임제목한줄말줄임제목한줄말줄임제목한줄말줄임</p>
+                      </div>
+                      <div class="col-bottom">
+                          <span class="artist">가수명한줄말줄임가수명한줄말줄임가수명한줄말줄임가수명한줄말줄임가수명한줄말줄임</span>
+                          <!--____tag.html____-->
+                          <div class="tag e-tag">
+                              <span class="circle">P</span>
+                              <span class="value">15</span>
+                          </div>
+                          <!--____tag.html____-->
+                      </div>
+                  </div>
+              </a>
+          </li>
+          <li class="list">
+              <a href="#">
+                  <div class="thumb-area">
+                      <img src="../assets/img/dummy-prd.png" alt="TOO BAD G-DRAGON" />
+                  </div>
+                  <div class="info-area">
+                      <div class="col-top">
+                          <!--____badge.html____-->
+                          <span class="badge ebadge-12">12시간마다</span>
+                          <!--____badge.html____-->
+                          <p class="title">제목한줄말줄임제목한줄말줄임제목한줄말줄임제목한줄말줄임제목한줄말줄임제목한줄말줄임제목한줄말줄임</p>
+                      </div>
+                      <div class="col-bottom">
+                          <span class="artist">가수명한줄말줄임가수명한줄말줄임가수명한줄말줄임가수명한줄말줄임가수명한줄말줄임</span>
+                          <!--____tag.html____-->
+                          <div class="tag e-tag">
+                              <span class="circle">P</span>
+                              <span class="value">15</span>
+                          </div>
+                          <!--____tag.html____-->
+                      </div>
+                  </div>
+              </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="btn-area">
+
+      <!-- tooltip.html -->
+      <div class="tooltip">
+        <p>
+          이 콘텐츠는 감상용으로 제공돼요
+        </p>
+      </div>
+      <!-- tooltip.html -->
+
+      <!--____button.html____-->
+      <button class="button">유튜브에서도 감상하기</button>
+      <!--____button.html____-->
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>뮤직클릭</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@6.8.4/swiper-bundle.min.css" />
+    <script src="assets/js/index.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@6.8.4/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/1₩-carousel@1.8.1/slick/slick.css"/>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head> 
+<body>
+
+
+    <!-- toastBar.html -->
+    <div class="toastBar shorts">
+      <div class="tag e-tag">
+          <span class="circle">P</span>
+      </div>
+      <p>
+        15원 받았어요.
+      </p>
+    </div>
+    <!-- toastBar.html -->
+
+
+    <!-- progressBar.html -->
+    <div class="progress-bar-wrap shorts">
+        <div class="progress-bar progress"></div>
+    </div>
+    <!-- progressBar.html -->
+
+
+    <!--____header.html____-->
+    <header class="header">
+        <a href="#" class="link-back">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+            <path d="M11.1464 16.6386C10.7937 16.2859 10.7937 15.714 11.1464 15.3612L19.5765 6.93113C19.9292 6.5784 20.5011 6.5784 20.8538 6.93113C21.2066 7.28386 21.2066 7.85576 20.8538 8.20849L13.0624 15.9999L20.8538 23.7913C21.2066 24.1441 21.2066 24.716 20.8538 25.0687C20.5011 25.4214 19.9292 25.4214 19.5765 25.0687L11.1464 16.6386Z" fill="#171E28"/>
+          </svg>
+        </a>
+    </header>
+    <!--____header.html____-->
+
+    
+    <div class="video-card"> 
+        <img src="./assets/img/shorts-smple.png" alt class="thumbnail">
+        <div class="video-info-bottom">
+            <div class="text">
+                <div class="channel-name">
+                    <div class="profile">
+                        <img src="./assets/img/dummy-prd03.png" alt>
+                    </div>
+                    <p class="name">유튜브명입니다. 한줄 말줄임 한줄 말줄임한줄 말줄임 한줄 말줄임</p>
+                </div>
+                <p class="description">
+                    유튜브 영상 타이틀입니다. 유튜브 영상 타이틀입니다. 두줄 말줄임 유튜브 영상 타이틀입니다. 유튜브 영상 타이틀입니다. 두줄 말줄임
+                </p>
+            </div>
+            <div class="meta">
+                <div class="tag e-tag">
+                    <span class="circle">P</span>
+                    <span class="value">15</span>
+                </div>
+                <!-- <span class="time type1">12시간마다</span> -->
+                <span class="time type2">3시간마다</span>
+                <!-- <span class="time type3">23:59:59</span> -->
+            </div>  
+        </div>
+    </div>
+
+
+    <!-- bottomSheet.html -->
+    <div class="dimmedarea" id="dimmed">
+        <div class="bottom-sheet shorts" id="shortsBottom">
+            <div class="sheet-content">
+                <h3>쇼츠 미션,<br>
+                    이렇게 참여해요!</h3>
+                <ul class="bottom">
+                    <li>쇼츠를 끝까지 감상하고</li>
+                    <li>‘리워드 받기’ 버튼이 뜨면 눌러주세요</li>
+                    <li>유튜브로 이동해 댓글+좋아요+구독까지!</li>
+                    <li>다시 앱으로 돌아오면 리워드가 쏙💜</li>
+                </ul>
+                <div class="btn-box">
+                    <!--____button.html____-->
+                    <button type="submit" class="button primary startBtn">미션 바로 시작!</button>
+                    <a href="#" class="close">오늘은 그만 볼래요</a>
+                    <!--____button.html____-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- '댓글 등록 후 ~' 팝업 -->
+    <div class="popup type3 shorts fade-up" style="display: none;">
+        <div class="popup-header">
+            <h3>댓글 등록 후 좋아요 & 구독 필수!</h3>
+        </div>
+        <div class="popup-body">
+            <p>
+                여러분의 클릭 한 번이 유튜버에게 큰 힘이 돼요
+            </p>
+        </div>
+        <div class="popup-btn">
+            <button class="button primary" onclick="alert('sdf')">미션 완료하고 리워드 받기</button>
+        </div>
+    </div>
+
+</body>
+</html>

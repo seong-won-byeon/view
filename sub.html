@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>뮤직클릭</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@6.8.4/swiper-bundle.min.css" />
+    <script src="assets/js/index.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@6.8.4/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+
+
+    <!-- toastBar.html -->
+    <div class="toastBar">
+      <div class="tag e-tag">
+          <!-- <span class="circle">P</span> -->
+          <img src="./assets/img/ic_cashslidecash_16.png" width="16" alt />
+      </div>
+      <p>
+          리워드 N 적립 완료!
+      </p>
+    </div>
+    <!-- toastBar.html -->
+
+    
+    <!--____header.html____-->
+    <header class="header">
+      <a href="#" class="link-back">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+          <path d="M11.1464 16.6386C10.7937 16.2859 10.7937 15.714 11.1464 15.3612L19.5765 6.93113C19.9292 6.5784 20.5011 6.5784 20.8538 6.93113C21.2066 7.28386 21.2066 7.85576 20.8538 8.20849L13.0624 15.9999L20.8538 23.7913C21.2066 24.1441 21.2066 24.716 20.8538 25.0687C20.5011 25.4214 19.9292 25.4214 19.5765 25.0687L11.1464 16.6386Z" fill="#171E28"/>
+        </svg>
+      </a>
+    </header>
+    <!--____header.html____-->
+
+    
+    <!-- 유튜브영역 -->
+    <div class="media">
+      <a href="https://www.youtube.com/watch?v=ekr2nIex040" target="_blank" rel="noopener noreferrer">
+        <img 
+          src="https://img.youtube.com/vi/ekr2nIex040/hqdefault.jpg" 
+          alt="YouTube Thumbnail"
+        >
+      </a>
+      <!-- progressBar.html -->
+      <div class="progress-bar-wrap">
+        <!-- 시작 -->
+        <!-- <div class="progress-bar">
+          <div class="thumb"></div>
+        </div> -->
+        <!-- 중간 -->
+        <!-- <div class="progress-bar progress">
+            <div class="thumb"></div>
+        </div> -->
+        <!-- 끝 -->
+        <div class="progress-bar filled">
+          <div class="thumb"></div>
+        </div>
+      </div>
+      <!-- progressBar.html -->
+    </div>
+
+    <div class="mediaNotice">
+      <img src="assets/img/notice-img.png" alt>
+      <p>브라우저를 백그라운드로 전환하면 영상이 중단돼요.</p>
+    </div>
+
+    <div class="p-20">
+      <div class="title-box">
+        <h4>
+          Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, corrupti.Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, corrupti.
+        </h4>
+        <div>
+            <p class="artist">KATSEYE</p>
+            <!--____tag.html____-->
+            <div class="tag e-tag cash-type">
+              <!-- P 텍스트 뱃지 (클래스로 제어) -->
+              <span class="circle tag-point">P</span>
+            
+              <!-- 이미지 아이콘 뱃지 (클래스로 제어) -->
+              <img src="./assets/img/ic_cashslidecash_18.png" width="18" alt class="tag-cash" />
+            
+              <span class="value">15</span>
+          </div>
+          <!--____tag.html____-->
+        </div>
+      </div>
+      
+      <!-- 가사 더보기 -->
+      <div class="lyrics-box">
+        <div class="lyrics" id="lyrics">
+          La, la la, la la la la la La,<br>
+          La, la la, la la la la la La,<br>
+          La, la la, la la la la la La,<br>
+          La, la la, la la la la la La,<br>
+          Know just how to make
+          <span class="extra">
+             a scene, just me<br>
+            La, la la, la la la la la<br>
+            La, la la, la la la la la<br>
+            I don't need no one, two, three, not<br>
+            bourgeoisie, I'll step in<br>
+            Know just how to make a scene, just me<br>
+            La, la la, la la la la la <br>
+            La, la la, la la la la la<br>
+            I don't need no one, two, three, not<br>
+            bourgeoisie, I'll step in<br>
+            Know just how to make a scene, just me
+          </span>
+        </div>
+        <button id="togglelyrics">가사 더보기</button>
+      </div>
+    
+      <!-- 주의사항 더보기 -->
+      <div class="notice-box">
+        <ul class="notice-list" id="noticeList">
+          <li>- 본 서비스는 만 14세 이상 사용자만 이용이 가능합니다.</li>
+          <li>- 기기를 음소거를 하거나, 앱이 백그라운드 상태일 경우 음악이 중단되고, 미션이 실패 처리됩니다.</li>
+          <li>- 음악 감상 후 해당 음원의 유튜브 게시물로 이동하여 미션을 완료해야 리워드가 지급됩니다.</li>
+          <li class="extra">- 유튜브로 이동하지 않거나, 미션을 완료하지 않은 경우 리워드는 지급되지 않습니다.</li>
+          <li class="extra">- 각 미션은 광고주 사정에 따라 사전 예고 없이 변경·취소되거나 조기 종료될 수 있습니다.</li>
+          <li class="extra">- 미션 완료 확인에는 최대 10분이 걸릴 수 있으며, 리워드 지급까지 최대 2시간이 소요될 수 있습니다.</li>
+          <li class="extra">- WIFI 환경이 아닌 경우 데이터 요금이 발생할 수 있으므로, WIFI 연결을 권장 드립니다.</li>
+          <li class="extra">- 정상적으로 미션을 완료하지 않은 경우, 이후 광고 참여가 제한될 수 있습니다.</li>
+          <li class="extra">- 음악 감상과 미션을 모두 완료한 경우에만 리워드가 지급됩니다.</li>
+        </ul>
+        <button id="toggleNotice">주의사항 더보기</button>
+      </div>
+      
+      <!-- 참여방법 -->
+      <div class="guide-box">
+        <p>참여방법</p>
+        <ul>
+          <li>- 영상 내 재생 버튼을 눌러 음원을 끝까지 감상해 주세요.</li>
+          <li>- 감상이 끝나면 하단의 '미션 완료하고 리워드 받기' 버튼을 눌러 유튜브 게시물로 이동해 주세요.</li>
+          <li>- 게시물에 감상평을 남기고, 좋아요와 구독 버튼을 눌러주세요.</li>
+          <li>- 미션 완료 후 다시 서비스 앱으로 돌아오면 리워드가 자동 지급됩니다.</li>
+        </ul>
+      </div>
+      
+      <div class="playlist">
+        <div class="titleTxt">
+          <h3>맞춤 플레이리스트</h3>
+        </div>
+        <ul class="card card-row type2">
+          <!--____cardRow.html____-->
+          <li class="list">
+              <a href="#">
+                  <div class="thumb-area">
+                      <img src="../assets/img/dummy-prd.png" alt="TOO BAD G-DRAGON" />
+                  </div>
+                  <div class="info-area">
+                      <div class="col-top">
+                          <!--____badge.html____-->
+                          <span class="badge ebadge-12">12시간마다</span>
+                          <!--____badge.html____-->
+                          <p class="title">Touch Touch Touch Touch Touch Touch</p>
+                      </div>
+                      <div class="col-bottom">
+                          <span class="artist">G-DRAGONG-DRAGONG-DRAGONG-DRAGONG-DRAGONG-DRAGON</span>
+                          <!--____tag.html____-->
+                          <div class="tag e-tag">
+                              <span class="circle">P</span>
+                              <span class="value">15</span>
+                          </div>
+                          <!--____tag.html____-->
+                      </div>
+                  </div>
+              </a>
+          </li>
+          <!--____cardRow.html____-->
+          <li class="list">
+              <a href="#">
+                  <div class="thumb-area">
+                      <img src="../assets/img/dummy-prd.png" alt="TOO BAD G-DRAGON" />
+                  </div>
+                  <div class="info-area">
+                      <div class="col-top">
+                          <!--____badge.html____-->
+                          <span class="badge ebadge-12">12시간마다</span>
+                          <!--____badge.html____-->
+                          <p class="title">Touch Touch Touch Touch Touch Touch</p>
+                      </div>
+                      <div class="col-bottom">
+                          <span class="artist">KATSEYEKATSEYEKATSEYEKATSEYEKATSEYEKATSEYE</span>
+                          <!--____tag.html____-->
+                          <div class="tag e-tag">
+                              <span class="circle">P</span>
+                              <span class="value">15</span>
+                          </div>
+                          <!--____tag.html____-->
+                      </div>
+                  </div>
+              </a>
+          </li>
+          <li class="list">
+              <a href="#">
+                  <div class="thumb-area">
+                      <img src="../assets/img/dummy-prd.png" alt="TOO BAD G-DRAGON" />
+                  </div>
+                  <div class="info-area">
+                      <div class="col-top">
+                          <!--____badge.html____-->
+                          <span class="badge ebadge-24">3시간마다</span>
+                          <!--____badge.html____-->
+                          <p class="title">Touch Touch Touch Touch Touch Touch</p>
+                      </div>
+                      <div class="col-bottom">
+                          <span class="artist">G-DRAGONG-DRAGONG-DRAGONG-DRAGONG-DRAGONG-DRAGON</span>
+                          <!--____tag.html____-->
+                          <div class="tag e-tag">
+                              <span class="circle">P</span>
+                              <span class="value">15</span>
+                          </div>
+                          <!--____tag.html____-->
+                      </div>
+                  </div>
+              </a>
+          </li>
+          <li class="list">
+              <a href="#">
+                  <div class="thumb-area">
+                      <img src="../assets/img/dummy-prd.png" alt="TOO BAD G-DRAGON" />
+                  </div>
+                  <div class="info-area">
+                      <div class="col-top">
+                          <!--____badge.html____-->
+                          <span class="badge ebadge-12">12시간마다</span>
+                          <!--____badge.html____-->
+                          <p class="title">Touch Touch Touch Touch Touch Touch</p>
+                      </div>
+                      <div class="col-bottom">
+                          <span class="artist">G-DRAGONG-DRAGONG-DRAGONG-DRAGONG-DRAGONG-DRAGON</span>
+                          <!--____tag.html____-->
+                          <div class="tag e-tag">
+                              <span class="circle">P</span>
+                              <span class="value">15</span>
+                          </div>
+                          <!--____tag.html____-->
+                      </div>
+                  </div>
+              </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="btn-area">
+
+      <!-- tooltip.html -->
+      <div class="tooltip">
+        <p>
+          <span class="highlight">음원 감상 후</span> 미션을 진행해주세요!
+        </p>
+      </div>
+      <!-- tooltip.html -->
+
+      <!--____button.html____-->
+      <!-- <button class="button">미션 완료하고 리워드 받기</button> -->
+      <!-- <button class="button disabled">12시간 이후 재참여 가능</button> -->
+      <button class="button disabled">참여 완료</button>
+      <!--____button.html____-->
+    </div>
+
+
+
+
+    <!-- 1) 음소거 팝업 -->
+    <div class="popup-dimmed" style="display: none;">
+      <div class="popup">
+          <div class="popup-header">
+              <h3>음원 재생이 중단됐어요!</h3>
+          </div>
+          <div class="popup-body">
+              <p>
+                미션을 계속 진행하려면<br>
+                음원을 끝까지 재생해 주세요.
+              </p>
+          </div>
+          <div class="popup-btn">
+              <button class="button primary">확인</button>
+          </div>
+      </div>
+    </div>
+
+
+
+    <!-- 2) 백그라운드 팝업 -->
+    <div class="popup-dimmed" style="display: none;">
+      <div class="popup type2">
+          <div class="popup-header">
+              <h3>음원 재생이 중단됐어요!</h3>
+          </div>
+          <div class="popup-body">
+              <p>
+                미션을 계속 진행하려면<br>
+                앱을 열고 음원을 끝까지 감상해 주세요.
+              </p>
+          </div>
+          <div class="popup-btn">
+              <button class="button second">닫기</button>
+              <button class="button primary">앱으로 이동</button>
+          </div>
+      </div>
+    </div>
+
+
+
+    <!-- 3) 페이지 이탈시 팝업 -->
+    <div class="popup-dimmed" style="display: none;">
+      <div class="popup type2">
+          <div class="popup-header">
+              <h3>잠깐! 리워드를 놓칠 수 있어요</h3>
+          </div>
+          <div class="popup-body">
+              <p>
+                지금 나가면 미션이 중단돼요.<br>
+                끝까지 감상해야 리워드를 받을 수 있어요.
+              </p>
+          </div>
+          <div class="popup-btn">
+              <button class="button second">나가기</button>
+              <button class="button primary">계속 듣기</button>
+          </div>
+      </div>
+    </div>
+
+
+
+    <!-- 4) 미션 참여 기회 소진시 -->
+    <div class="popup-dimmed" style="display: none;">
+      <div class="popup type2 noMission">
+          <div class="popup-header">
+              <h3>오늘 미션을 모두 완료했어요!</h3>
+          </div>
+          <div class="popup-body">
+              <p>
+                지금은 감상만 가능해요.<br>
+                리워드는 다음 참여 기회에 받을 수 있어요.
+              </p>
+          </div>
+          <div class="popup-btn">
+              <button class="button second">나중에 들을게요</button>
+              <button class="button primary">음원 감상하기</button>
+          </div>
+          <!-- Input.html 2. Input checkbox -->
+          <div class="checkbox-wrapper">
+            <input type="checkbox" id="noshow" name="noshow" required>
+            <label for="noshow">
+                <span class="ico-agree"></span>
+                <span class="label-text">
+                    오늘 하루 보지 않기
+                </span>
+            </label>
+          </div>
+          <!-- Input.html 2. Input checkbox -->
+      </div>
+    </div>
+
+
+
+    <!-- 5) 미션대기중 팝업 -->
+    <div class="popup-dimmed" style="display: none;">
+      <div class="popup type2 waiting">
+          <div class="popup-header">
+              <h3>리워드 미션 대기 중이에요!</h3>
+          </div>
+          <div class="popup-body">
+              <p>
+                지금은 감상만 가능해요.<br>
+                리워드는 다음 참여 기회에 받을 수 있어요.
+              </p>
+          </div>
+          <div class="popup-btn">
+              <button class="button second">나중에 들을게요</button>
+              <button class="button primary">음원 감상하기</button>
+          </div>
+          <!-- Input.html 2. Input checkbox -->
+          <div class="checkbox-wrapper" style="justify-content: center;">
+            <input type="checkbox" id="noshow" name="noshow" required>
+            <label for="noshow">
+                <span class="ico-agree"></span>
+                <span class="label-text">
+                    오늘 하루 보지 않기
+                </span>
+            </label>
+          </div>
+          <!-- Input.html 2. Input checkbox -->
+      </div>
+    </div>
+
+
+
+
+</body>
+</html>
