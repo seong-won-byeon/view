@@ -1525,6 +1525,10 @@ header.shorts svg path {
   .cont-vi .content p {
     color: #444A5A;
   }
+  .cont-vi .shortsCnt .titleTxt.txt-02 {
+    color: #fff;
+    margin-top: 28px;
+  }
   .cont-vi.cont-wrap {
     padding-bottom:28px;
   }
