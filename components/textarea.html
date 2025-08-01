@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/common.css">
+</head>
+<body>  
+    
+
+
+    <!-- 기본 상태 (default) -->
+    <div class="textarea-wrapper">
+        <label for="defaultTextarea"><span>*</span>문의 내용</label>
+        <div class="custom-text" id="customText">
+          <div class="textarea-inner">
+            <textarea id="defaultTextarea" placeholder="문의 내용을 입력해주세요." maxlength="200"></textarea>
+            <div class="char-count"><span id="charCount">0</span>/200</div>
+          </div>
+        </div>
+    </div>
+
+    <!-- error -->
+    <div class="textarea-wrapper error">
+      <label for="defaultTextarea"><span>*</span>문의 내용</label>
+      <div class="custom-text" id="customText">
+        <div class="textarea-inner">
+          <textarea id="defaultTextarea" placeholder="문의 내용을 입력해주세요." maxlength="200"></textarea>
+          <div class="char-count"><span id="charCount">0</span>/200</div>
+        </div>
+      </div>
+      <p class="error-msg">문의 내용을 입력해주세요.</p>
+  </div>
+
+
+
+</body>
+</html>

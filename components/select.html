@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/common.css">
+</head>
+<body>  
+    
+
+    <!-- default -->
+    <div class="select-wrapper">
+      <label for="customSelect"><span>*</span>유형</label>
+      <div class="custom-select" id="customSelect">
+          <div class="custom-select-inner">
+              <span class="placeholder">문의 유형 선택</span>
+              <ul class="dropdown-list">
+                  <li class="selected">미션 참여 문의</li>
+                  <li>리워드 지급 문의</li>
+                  <li>광고 제휴 문의</li>
+              </ul>
+          </div>
+      </div>
+      <input type="hidden" name="inquiryType" id="inquiryType">
+    </div>
+
+
+    <!-- error -->
+    <div class="select-wrapper error">
+      <label for="customSelect"><span>*</span>유형</label>
+      <div class="custom-select error" id="customSelect">
+          <div class="custom-select-inner">
+              <span class="placeholder">문의 유형 선택</span>
+              <ul class="dropdown-list">
+                  <li class="selected">미션 참여 문의</li>
+                  <li>리워드 지급 문의</li>
+                  <li>광고 제휴 문의</li>
+              </ul>
+          </div>
+      </div>
+      <input type="hidden" name="inquiryType" id="inquiryType">
+      <p class="error-msg">문의 유형을 선택해주세요.</p>
+  </div>
+
+
+</body>
+</html>
