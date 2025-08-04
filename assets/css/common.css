@@ -841,9 +841,9 @@ body.fixed {
   font-size: var(--font-label-size);
   line-height: var(--font-label-line);
   font-weight: var(--font-label-weight);
-  border-radius: 6px;
-  padding: 4px 8px;
-  height: 24px;
+  border-radius: 4px;
+  padding: 2px 8px;
+  height: 20px;
 }
 .ebadge-12 {
   background: #FFF7F5;
@@ -1795,8 +1795,8 @@ input[type="checkbox"]:checked + label .ico-agree {
   gap: 8px;
 }
 .video-info .profile {
-  width: 36px;
-  height: 36px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   overflow: hidden;
   flex-shrink: 0;
@@ -1914,17 +1914,17 @@ input[type="checkbox"]:checked + label .ico-agree {
    .ebadge-12 {
     color: #FF5436;
     background-color: rgba(255, 84, 54, 0.15);
-    outline: 1px solid rgba(255, 84, 54, 0.20);
+    border: 1px solid rgba(255, 84, 54, 0.20);
   }
    .ebadge-24 {
     color: #0064FF;
     background-color: rgba(0, 100, 255, 0.15);
-    outline: 1px solid rgba(0, 100, 255, 0.20);
+    border: 1px solid rgba(0, 100, 255, 0.20);
   }
    .ebadge-waiting {
     color: #F6F7F8;
     background-color: rgba(246, 247, 248, 0.15);
-    outline: 1px solid rgba(246, 247, 248, 0.15);
+    border: 1px solid rgba(246, 247, 248, 0.15);
   }
 
 
