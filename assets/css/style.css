@@ -1320,9 +1320,9 @@ header.shorts svg path {
   .swiper.banner {
     padding: 10px 45px 28px 24px;
   }
-/*   .banner .swiper-slide .thumb-area {
+  .banner .swiper-slide .thumb-area {
     height: 36.83vw;
-  } */
+  }
   .swiper-pagination-bullet {
     width: 8px !important;
     height: 8px !important;
