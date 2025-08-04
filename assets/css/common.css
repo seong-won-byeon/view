@@ -841,6 +841,7 @@ body.fixed {
   font-size: var(--font-label-size);
   line-height: var(--font-label-line);
   font-weight: var(--font-label-weight);
+  letter-spacing: -0.24px;
   border-radius: 4px;
   padding: 2px 8px;
   height: 20px;
