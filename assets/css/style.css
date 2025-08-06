@@ -1907,6 +1907,9 @@ header.shorts svg path {
   .container.yt > p:nth-of-type(1) {
     color: #fff;
   }
+ .yt-step1 .info-inner .auth {
+    border: 1px solid #485061;
+  }
   .yt-step1 .divider {
     background-color: #485061;
   }
