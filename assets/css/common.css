@@ -891,7 +891,9 @@ body.fixed {
   line-height: var(--font-h5-height);
   font-weight: var(--font-h5-weight);
 }
-
+.tag .givv {
+  margin-left: 2px;
+}
 
 
 
